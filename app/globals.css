@@ -4,6 +4,10 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+.nav-link {
+  @apply text-gray-700 hover:text-pink-600 transition font-medium;
+}
+
 
 @theme inline {
   --color-background: var(--background);
